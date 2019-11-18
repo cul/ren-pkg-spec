@@ -1,6 +1,6 @@
 Summary:            A fast image processing library with low memory needs
 Name:               vips
-Version:            8.6.2
+Version:            8.7.4
 Release:            1%{?dist}
 License:            LGPLv2+
 Source0:            https://github.com/libvips/libvips/releases/download/v%{version}/%{name}-%{version}.tar.gz

@@ -34,7 +34,7 @@ are several GUIs as well, see the VIPS website.
 
 %build
 %configure
-%{!?make_build:%define make_build %{__make} -O %{?_smp_mflags}}
+%make_build
 %install
 %make_install
 for f in $(find %{buildroot} -exec file {} \; | grep -i elf | cut -d: -f1); do chrpath --delete $f; done

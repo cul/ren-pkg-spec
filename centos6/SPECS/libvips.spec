@@ -3,7 +3,7 @@ Name:               vips
 Version:            8.6.2
 Release:            1%{?dist}
 License:            LGPLv2+
-Source0:            https://github.com/libvips/libvips/releases/download/v8.6.2/%{name}-%{version}.tar.gz
+Source0:            https://github.com/libvips/libvips/releases/download/v%{version}/%{name}-%{version}.tar.gz
 URL:                https://github.com/libvips/libvips
 BuildRequires:      chrpath, gtk-doc, libxml2-devel, libjpeg-turbo-devel, libpng-devel
 BuildRequires:      libtiff-devel, libexif-devel, libgsf-devel, lcms-devel
